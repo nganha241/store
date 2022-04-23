@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Updock&display=swap');
+
+* {
+    font-family: 'Quicksand', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: #fdfcf9;
+    position: relative;
+    height: auto;
+    padding: 40px 60px;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.header .tools {
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+}
+
+.header .tools .notification,
+.header .tools .account,
+.header .tools .cart {
+    cursor: pointer;
+}
+
+.header .tools .fa-solid {
+    font-size: 22px;
+    color: #ae582d;
+}
+
+.header .tools .account span .fa-solid{
+    font-size: 18px;
+    color: #111;
+    margin-left: 10px;
+    margin-right: 15px;
+}
+
+.header .tools .account:hover .fa-solid{
+    color: #ae582d;
+}
+
+.header hr {
+    background: #48503c;
+}
+
+.header nav {
+    display: flex;
+}
+
+.header nav .logo a{
+    font-family: 'Updock', cursive;
+    font-size: 50px;
+    color: #48503c;
+}
+
+.header nav .logo:hover a {
+    color: #111;
+}
+
+/* .header nav .menu {
+    margin-left: 619px;
+}
+
+.header nav .menu li {
+    float: left;
+}
+
+.header nav .menu li a {
+    display: block;
+    padding: 6px 0px 0px 15px;
+    color: #48503c;
+}
+
+.header nav .menu li:hover a {
+    color: #111;
+} */
+
+.header nav .menu {
+    display: flex;
+    gap: 15px;
+}

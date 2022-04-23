@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400&display=swap');
+
+* {
+    font-family: 'Quicksand', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: #fdfcf9;
+    position: relative;
+    height: auto;
+    padding: 40px 60px;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.header .tools {
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+}
+
+.header .tools .notification,
+.header .tools .account,
+.header .tools .cart {
+    cursor: pointer;
+}
+
+.header .tools .fa-solid {
+    font-size: 22px;
+    color: #ae582d;
+}
+
+.header .tools .account span .fa-solid{
+    font-size: 18px;
+    color: #111;
+    margin-left: 10px;
+    margin-right: 15px;
+}
+
+.header .tools .account:hover .fa-solid{
+    color: #ae582d;
+}
+
+.header hr {
+    background: #48503c;
+}
+
+.header nav {
+    display: flex;
+    width: 100%;
+}
+
+.header nav .logo {
+    width: 50%;
+    padding-top: 20px;
+}
+
+.header nav .logo a{
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 30px;
+    color: #48503c;
+    font-weight: 100;
+    
+}
+
+.header nav .logo a:hover {
+    color: #111;
+}
+
+.header nav .menu {
+    display: flex;
+    gap: 15px;
+    padding-top: 7px;
+    justify-content: flex-end;
+    width: 50%;
+}
+
+.header nav .menu li {
+    float: left;
+}
+
+.header nav .menu li a {
+    display: block;
+    padding: 6px 0px 0px 15px;
+    color: #48503c;
+}
+
+.header nav .menu li:hover a {
+    color: #111;
+}
+
+.header .banner {
+    width: 100%;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    position: relative;
+}
+
+.header .banner .slogan {
+    width: 50%;
+    padding-left: 60px;
+    padding-right: 20px;
+}
+
+.header .banner .slogan h4 {
+    color: #ae582d;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 60px;
+    font-weight: 200;
+}
+
+.header .banner .slogan p {
+    font-size: 20px;
+    color: #515a54;
+    margin-top: -50px;
+}
+
+.header .banner .img-banner{
+    width: 50%;
+    height: 100%;
+}
+
+.header .banner .img-banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+.section {
+    height: auto;
+    margin-top: 100px;
+    background: rgb(244, 239, 239);
+}
+
+.section .pro-title{
+    height: auto;
+    width: 200px;
+    background: #f4e9c7;
+    text-align: center;
+}
+
+.section .pro-title h2 a{
+    font-size: 30px;
+    color: #48503c;
+    font-weight: 200;
+}
+
+.section .products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 30px;
+    padding: 30px 10px;
+}
+
+.section .products .card {
+    width: 250px;
+    height: 400px;
+    background: #fdfcf9;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.4s;
+    position: relative;
+}
+
+.section .products .card:hover {
+    transform: scale(1.1 , 1.1);
+    background: rgba(255, 255, 255, 0.4);
+    
+}
+
+.section .products .card .pro-img {
+    height: 330px;
+}
+
+.section .products .card .pro-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.section .products .card .pro-name {
+    font-size: 18px;
+}
+
+.section .products .card .pro-price {
+    font-size: 15px;
+}
+
+.section .products .card .add-cart {
+    margin-top: -220px;
+}
+
+.section .products .card .add-cart button{
+    /* opacity: 0; */
+    
+}
+
+.section .products .card:hover .add-cart button {
+    height: 40px;
+    /* margin-top: -200px; */
+    background: #ae582d;
+    border: 0;
+    cursor: pointer;
+    transition: 0.4s;
+    opacity: 1;
+}
+
+.section .products .card .add-cart button:hover {
+    transform: scale(1.1);
+}

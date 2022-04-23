@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Updock&display=swap');
+
+* {
+    font-family: 'Quicksand', sans-serif;
+}
+
+body {
+    background: #fdfcf9;
+    position: relative;
+    padding: 40px 60px;
+}
+
+.header .tools {
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+}
+
+.header .tools .notification,
+.header .tools .account,
+.header .tools .cart {
+    cursor: pointer;
+}
+
+.header .tools .fa-solid {
+    font-size: 22px;
+    color: #ae582d;
+}
+
+.header .tools .account span .fa-solid{
+    font-size: 18px;
+    color: #111;
+    margin-left: 10px;
+    margin-right: 15px;
+}
+
+.header .tools .account:hover .fa-solid{
+    color: #ae582d;
+}
+
+.header hr {
+    background: #48503c;
+}
+
+.header nav .logo {
+    fo
+}
