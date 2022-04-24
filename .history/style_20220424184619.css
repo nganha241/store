@@ -1425,13 +1425,10 @@ li {
     font-size: 18px;
     border: 0;
     background: #551e02;
+    color: #fff;
     border-radius: 5px;
     cursor: pointer;
     transition: 0.4s;
-}
-
-.container .cart .detail .pay button a{
-    color: #fff;
 }
 
 .container .cart .detail .pay button:hover {

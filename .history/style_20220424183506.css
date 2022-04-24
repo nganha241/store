@@ -91,10 +91,6 @@ li {
    width: 250px;
 }
 
-.header .tools .cart .cart-info .cart-card .cart-pro-name a {
-    color: #fff;
-}
-
 .header .tools .cart .cart-info .cart-card-footer {
     display: flex;
     justify-content: space-between;
@@ -454,10 +450,6 @@ li {
     overflow: hidden;
 }
 
-.products .card .pro-name a {
-    color: #111;
-}
-
  .products .card .pro-price {
     font-size: 15px;
 }
@@ -605,10 +597,6 @@ li {
 .section .featured .list-slider .slide .fade:hover .featured-choose {
     opacity: 1;
     transition: 0.6s;
-}
-
-.section .featured .list-slider .slide .fade .featured-choose a {
-    color: #fff;
 }
 
 .section .featured .list-slider .slide .fade .featured-choose .fas {
@@ -1425,13 +1413,10 @@ li {
     font-size: 18px;
     border: 0;
     background: #551e02;
+    color: #fff;
     border-radius: 5px;
     cursor: pointer;
     transition: 0.4s;
-}
-
-.container .cart .detail .pay button a{
-    color: #fff;
 }
 
 .container .cart .detail .pay button:hover {
@@ -1450,18 +1435,16 @@ li {
 }
 
 .container .payment .infomation {
-    width: 35%;
-    height: 120px;
-    padding: 10px 30px;
+    width: 30%;
+    height: 150px;
+    padding: 30px;
     background:rgba(231, 195, 178, 0.9);
-    border-radius: 15px;
 }
 
 .container .payment .product {
     width: 70%;
     background:rgba(231, 195, 178, 0.9);
     padding: 20px;
-    border-radius: 15px;
 }
 
 .container .payment .product .title,
@@ -1479,8 +1462,6 @@ li {
 
 .container .payment .product .name{
     display: flex;
-    align-items: center;
-    gap: 10px;
     width: 300px;
 }
 
